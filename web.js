@@ -6,10 +6,12 @@ app.get('/', function(request, response) {
   response.send('Hello World2! How are you doing?');
 });
 
+/*
 
 var buf = new Buffer(fs.readFileSync('index.html', String));
 
 console.log(buf.toString);
+*/
 
 
 var port = process.env.PORT || 5000;
